@@ -1,0 +1,128 @@
+/**************************************/
+body{
+    
+    background-color: #333333;
+}
+
+#page{
+    
+    width:960px;
+    min-height: 400px;
+    margin:auto;
+    
+}
+
+#header{
+    
+    min-height:60px;
+    padding:30px;
+    
+}
+
+#body{
+    
+    min-height:300px;
+    padding: 30px;
+}
+
+
+#footer{
+    
+    height:100px;
+    padding:30px;
+    
+}
+
+#login{
+    
+    margin:auto;
+    background-color: #3399cc;
+    width:350px;
+    padding:10px;
+    
+    -moz-border-radius:15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px;
+
+    
+}
+
+#singin{
+    
+    margin:auto;
+    background-color: #3399cc;
+    width:650px;
+    padding:10px;
+    display: none;
+    -moz-border-radius:15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px;
+
+    
+}
+
+#singin input{
+    
+    margin: 10px;
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    
+}
+#singin td{
+
+    font-size: 15px;
+ 
+}
+
+#login a:link, a:active , a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#login a:hover{
+    border-bottom: 2px white solid;
+}
+
+#singin{
+    
+    font-size: 30px;
+}
+
+#singin button{
+    
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#singin a:link, a:active , a:visited{
+    
+    text-decoration: none;
+    
+    
+}
+#singin a{
+    
+    font-size: 20px;
+    
+}
+
+#singin a:hover{
+    border-bottom: 2px white solid;
+}
+
+#login input{
+    
+    height: 35px;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+#login button{
+    
+    width : 100px;
+    height: 30px;
+    margin: 20px;
+    font-size: 15px;
+    
+}

@@ -1,0 +1,192 @@
+body{
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+textarea{
+    
+    margin-left: 15px;
+    resize:none;
+    
+}
+
+
+#logoutId{
+    float : right;
+    text-decoration: none;
+}
+
+#logoutId:hover{
+    
+    color:white;
+    
+}
+
+#page{
+    
+    width:960px;
+    min-height: 400px;
+    margin: auto;
+}
+
+#header{
+    
+    height: 150px;
+    background-color: #3399cc;
+    
+}
+#body{
+    
+    min-height: 450px;
+    background-color: aquamarine;
+}
+#footer{
+    
+    height: 150px;
+    background-color: aquamarine;
+    background-color: #3799cc;
+}
+
+#photo_perfil{
+    
+    width:210px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    border:2px solid white;
+    
+}
+
+#photo_perfil img{
+    
+    width:210px;
+    height: 200px;
+    
+}
+
+.clear{
+    
+    clear: both;
+}
+
+
+#menu{
+    
+    width:150px;
+    min-width: 100px;
+    background-color: red;
+    padding: 10px;
+    float: left;
+}
+
+.item{
+    
+    width:120px;
+    height: 30px;
+    background-color: blue;
+    margin:auto;
+    margin:10px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+
+.item:hover{
+    
+    background-color: antiquewhite;
+}
+
+
+
+.blokes{
+    
+    width: 550px;
+    min-height: 300px;
+    background-color: #3799cc;
+    float: left;
+    z-index: 8;
+    margin: 10px;
+    margin-left: 50px;
+    
+}
+  
+
+
+body{
+    
+    background-color: green;
+    
+}
+
+#cuerpo{
+    width:600px;
+    border:2px solid black;
+    margin:auto;
+}
+
+#albunes{
+    
+    width:500px;
+    background-color: #f0f0f0;
+    border:2px solid black;
+    margin: 10px;
+    
+}
+
+#albunes a div{
+    
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    float: left;
+    background-image: url('../img/folder2.png');
+    
+}
+#photo_perfil_padre{
+    
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity:.9;
+    display: none;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#photo_perfil_hijo{
+    
+    width:300px;
+    height:150px;
+    background-color:#f0f0f0;
+    margin:auto;
+    position:absolute;
+    display:none;
+    z-index:9;
+    margin-left: 25%;
+    margin-top: 150px;
+    padding: 80px 20px 20px 20px;
+    
+}
+
+#photo_perfil_hijo button{
+    
+    width:120px;
+    height: 30px;
+    margin:30px;
+    
+}
+
+#albunes a div label{
+    
+    position: relative;
+    top:80px;
+    
+}
